@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Overview - CLI_Github</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        .process-step {
+            background: #ecf0f1;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        .file-section {
+            margin-left: 20px;
+        }
+        .status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .status.pending { background: #f39c12; color: white; }
+        .status.in-progress { background: #e74c3c; color: white; }
+        .status.done { background: #27ae60; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 High-Level Process Overview</h1>
+        
+        <h2>🎯 Project Description</h2>
+        <p>This repository contains a basic CLI application structure with:</p>
+        <ul>
+            <li>Example Python scripts demonstrating functionality</li>
+            <li>Test files for validation</li>
+            <li>Git repository for version control</li>
+        </ul>
+
+        <h2>🔄 Typical Development Process</h2>
+        
+        <div class="process-step">
+            <strong>1. Initialize Project</strong>
+            <div class="file-section">
+                • Create repository structure<br>
+                • Set up Git initialization<br>
+                • Define project files
+            </div>
+        </div>
+
+        <div class="process-step">
+            <strong>2. Development Phase</strong>
+            <div class="file-section">
+                • Implement core functionality<br>
+                • Create example scripts<br>
+                • Write tests for validation
+            </div>
+        </div>
+
+        <div class="process-step">
+            <strong>3. Testing Phase</strong>
+            <div class="file-section">
+                • Run test files<br>
+                • Validate functionality<br>
+                • Fix any issues found
+            </div>
+        </div>
+
+        <div class="process-step">
+            <strong>4. Documentation</strong>
+            <div class="file-section">
+                • Create process overview<br>
+                • Document API endpoints<br>
+                • Write user guides
+            </div>
+        </div>
+
+        <div class="process-step">
+            <strong>5. Deployment</strong>
+            <div class="file-section">
+                • Build final artifacts<br>
+                • Deploy to target environment<br>
+                • Monitor and maintain
+            </div>
+        </div>
+
+        <h2>📁 Repository Structure</h2>
+        <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+            <thead>
+                <tr style="background: #34495e; color: white;">
+                    <th>File</th>
+                    <th>Purpose</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>example_script.py</td>
+                    <td>Basic Python script example</td>
+                    <td><span class="status done">Done</span></td>
+                </tr>
+                <tr>
+                    <td>example_script2.py</td>
+                    <td>Second Python script example</td>
+                    <td><span class="status done">Done</span></td>
+                </tr>
+                <tr>
+                    <td>test.txt</td>
+                    <td>Test data/file 1</td>
+                    <td><span class="status done">Done</span></td>
+                </tr>
+                <tr>
+                    <td>test2.txt</td>
+                    <td>Test data/file 2</td>
+                    <td><span class="status done">Done</span></td>
+                </tr>
+                <tr>
+                    <td>.git</td>
+                    <td>Version control repository</td>
+                    <td><span class="status done">Done</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>🚀 Next Steps</h2>
+        <ol>
+            <li>Review the example scripts</li>
+            <li>Understand the test files</li>
+            <li>Plan feature additions</li>
+            <li>Implement new functionality</li>
+        </ol>
+    </div>
+</body>
+</html>
